@@ -1,0 +1,20 @@
+app: ipInfo_app
+component: scf
+inputs:
+  cls:
+    logsetId: ""
+    topicId: ""
+  description: ipInfo_app
+  enableRoleAuth: true
+  events: []
+  handler: index.main_handler
+  memorySize: 128
+  name: ipInfo_app
+  namespace: default
+  region: ap-hongkong
+  runtime: Python3.6
+  src: ./src
+  timeout: 3
+name: ap-hongkong_default_ipInfo_app
+org: "1256380098"
+stage: dev
